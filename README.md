@@ -6,8 +6,8 @@ Suppose you want to show message box for debug reason, and either
 
 ## Then all you need is:
 1) build  this solution
-1) Open main.cpp from this project and copy launch function `msgBox`
-3) Use it, something like:
+1) #include msgBox.h` in your project or copy function from it (named `msgBox`)
+3) Maybe modify path to your build location and then use it, something like:
 
 	msgBox(R"({"name":"param1","param2":6,"arr":[1, 2, 3]})");
  
