@@ -5,9 +5,9 @@ Suppose you want to show message box for debug reason, and either
 3) your GUI app does not format json in message box
 
 ## Then all you need is:
-1) build  this solution
-1) #include msgBox.h` in your project or copy function from it (named `msgBox`)
-3) Maybe modify path to your build location and then use it, something like:
+1) build  this solution (to create executable which will be launched)
+1) #include `msgBox.h` in your project or copy function from it (named `msgBox`)
+3) Maybe modify path to your build location (or add it to path) and then use it, something like:
 
 	msgBox(R"({"name":"param1","param2":6,"arr":[1, 2, 3]})");
  
